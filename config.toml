@@ -1,0 +1,4 @@
+baseURL = "https://dayu.me/"
+languageCode = "zh-CN"
+title = "你好，大余"
+theme = "tale"
