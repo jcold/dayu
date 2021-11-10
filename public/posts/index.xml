@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>你好，大余</title>
-    <link>https://dayu.me/</link>
-    <description>Recent content on 你好，大余</description>
+    <title>Posts on 你好，大余</title>
+    <link>https://dayu.me/posts/</link>
+    <description>Recent content in Posts on 你好，大余</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Nov 2021 16:24:53 +0800</lastBuildDate><atom:link href="https://dayu.me/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://dayu.me/about/</link>
-      <pubDate>Wed, 10 Nov 2021 17:15:01 +0800</pubDate>
-      
-      <guid>https://dayu.me/about/</guid>
-      <description>大余
-Dayu
-平庸的互联网从业者，碌碌无为的大龄码农！</description>
-    </item>
-    
+    <lastBuildDate>Wed, 10 Nov 2021 16:24:53 +0800</lastBuildDate><atom:link href="https://dayu.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello Again Dayu</title>
       <link>https://dayu.me/posts/2021/11/hello-again-dayu/</link>

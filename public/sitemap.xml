@@ -2,10 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://dayu.me/about/</loc>
+    <lastmod>2021-11-10T17:15:01+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://dayu.me/posts/2021/11/hello-again-dayu/</loc>
+    <lastmod>2021-11-10T16:24:53+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://dayu.me/posts/</loc>
+    <lastmod>2021-11-10T16:24:53+08:00</lastmod>
+  </url><url>
+    <loc>https://dayu.me/</loc>
+    <lastmod>2021-11-10T16:24:53+08:00</lastmod>
+  </url><url>
+    <loc>https://dayu.me/categories/</loc>
+  </url><url>
+    <loc>https://dayu.me/tags/</loc>
   </url>
 </urlset>
