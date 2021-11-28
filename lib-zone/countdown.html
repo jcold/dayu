@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时生成</title>
+    <style>
+        body {
+            /*margin-left: auto;*/
+            /*margin-right: auto;*/
+            -webkit-print-color-adjust: exact !important;
+        }
+
+        h1 {
+            margin-top: 3em;
+            text-align: center;
+            font-family: "方正苏新诗柳楷简体";
+            letter-spacing: 0.2em;
+        }
+
+        .month {
+            background-color: #c3006a;
+            color: white;
+        }
+
+        .monday {
+            color: #8a2be2;
+            font-weight: bold;
+        }
+
+        #box {
+            display: table;
+            /*border: 1px solid #1c2c42;*/
+            border-collapse: collapse;
+            max-width: 60em;
+        }
+
+
+        #box div {
+            margin-right: -1px;
+            margin-bottom: -1px;
+            display: inline-block;
+            /*display:table-cell;*/
+            width: 3em;
+            height: 3em;
+            line-height: 3em;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<h1>道盒(版本2)完成倒计时</h1>
+<div id="box"></div>
+</body>
+<script>
+  var obj = document.getElementById("box")
+
+  var today = new Date()
+  var endDay = "2022-02-01"
+  var limit = 200
+
+  while (--limit) {
+    var n = today.toISOString().split('T')
+    if (n[0] === endDay){
+      break;
+    }
+
+    var el = document.createElement("div")
+    var d = today.getDate()
+    if (d === 1) {
+      el.innerText = today.getMonth() + 1 + "/" + today.getDate()
+      el.className = "month"
+    } else {
+      el.innerText = today.getDate() + ""
+    }
+
+    if (today.getDay() === 1) {
+      el.className += " monday"
+    }
+
+    obj.appendChild(el)
+
+    today.setDate(today.getDate() + 1)
+  }
+</script>
+</html>
