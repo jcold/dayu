@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dayu.me/posts/</loc>
+    <lastmod>2021-12-01T18:16:44+08:00</lastmod>
+  </url><url>
+    <loc>https://dayu.me/</loc>
+    <lastmod>2021-12-01T18:16:44+08:00</lastmod>
+  </url><url>
+    <loc>https://dayu.me/posts/2021/12/freedom-mean-while/</loc>
+    <lastmod>2021-12-01T18:16:44+08:00</lastmod>
+  </url><url>
+    <loc>https://dayu.me/posts/2021/11/noise-book/</loc>
+    <lastmod>2021-11-14T10:07:18+08:00</lastmod>
+  </url><url>
+    <loc>https://dayu.me/posts/2021/11/how-to-get-upgrade-life/</loc>
+    <lastmod>2021-11-13T10:41:46+08:00</lastmod>
+  </url><url>
+    <loc>https://dayu.me/posts/2021/11/less-text-book/</loc>
+    <lastmod>2021-11-12T10:04:03+08:00</lastmod>
+  </url><url>
     <loc>https://dayu.me/about/</loc>
     <lastmod>2021-11-10T17:15:01+08:00</lastmod>
   </url><url>
     <loc>https://dayu.me/posts/2021/11/hello-again-dayu/</loc>
-    <lastmod>2021-11-10T16:24:53+08:00</lastmod>
-  </url><url>
-    <loc>https://dayu.me/posts/</loc>
-    <lastmod>2021-11-10T16:24:53+08:00</lastmod>
-  </url><url>
-    <loc>https://dayu.me/</loc>
     <lastmod>2021-11-10T16:24:53+08:00</lastmod>
   </url><url>
     <loc>https://dayu.me/categories/</loc>
